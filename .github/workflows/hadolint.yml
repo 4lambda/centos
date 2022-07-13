@@ -14,7 +14,6 @@ permissions:
 
 jobs:
   Hadolint:
-    name: Run hadolint scanning
     runs-on: ubuntu-latest
     permissions:
       contents: read # for actions/checkout to fetch code
